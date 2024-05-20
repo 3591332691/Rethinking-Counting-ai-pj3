@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch
 from torchvision import models
 import torch.nn.functional as F
-from gau_conv import *
+from ..gau_conv import *
 
 class CSRNet(nn.Module):
     def __init__(self, load_weights=False):
